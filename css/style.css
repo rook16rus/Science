@@ -102,6 +102,17 @@ body {
     background: transparent url("../img/search icon.svg") no-repeat center;
 }
 
+.main-article p[class=""] {
+    margin: 0;
+}
+
+.main-article h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 40px 0 20px;
+}
+
 .main-article header {
     background-image:  url("../img/pattern-dots.png"), url("../img/microscope.svg"), url("../img/loop.svg");
     background-repeat: repeat, no-repeat, no-repeat;
@@ -152,6 +163,8 @@ h1 {
     font-size: 24px;
     line-height: 30px;
     color: #161540;
+
+    margin: 40px 0 20px;
 }
 
 .main-article-nav {
@@ -162,4 +175,57 @@ h1 {
 
 .main-article-nav .link {
     font-weight: normal;
+}
+
+.definition-title {
+    margin: 60px 0 30px;
+}
+
+.list-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 40px 0 20px;
+}
+
+.carbohydrates-list {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+.carbohydrates-item {
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+.carbohydrates-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 35px 0 50px;
+
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.carbohydrates-table th {
+    font-weight: 600;
+    text-align: left;
+}
+
+.carbohydrates-table th, .carbohydrates-table td {
+    padding: 15px 10px;
+}
+
+.carbohydrates-table tr:nth-child(even) td {
+    background-color: #FFFFFF;
+}
+
+.carbohydrates-table  tr:nth-child(odd) td {
+    background-color: #E2F2F8;
+}
+
+.carbohydrates-table td {
+    min-width: 256px;
 }
