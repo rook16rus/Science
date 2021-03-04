@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: #111032;
+
+    background-color: #F9F9FF;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    width: 770px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    padding: 0;
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.main-header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 19px 0;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0 -35px 0 0;
+    padding: 0;
+    max-width: 560px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.menu-item {
+    margin-right: 35px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #111032;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.search-wrapper p {
+    margin: 0 15px 0 0;
+}
+
+.search-button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    outline: none;
+    font-size: 0;
+    background: transparent url("../img/search icon.svg") no-repeat center;
+}
+
+.main-article header {
+    background-image:  url("../img/pattern-dots.png"), url("../img/microscope.svg"), url("../img/loop.svg");
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-position: 0 0, 107px 73px, right 110px top 113px;
+    background-color: #161540;
+    padding: 126px 0 142px;
+    box-sizing: border-box;
+    color: #F9F9FF;
+}
+
+.category {
+    margin: 0 0 20px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #68CDD4;
+    
+}
+
+h1 {
+    margin: 20px 0 10px;
+
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.theme {
+    margin: 10px 0 0;
+
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+}
