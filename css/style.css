@@ -573,3 +573,37 @@ h1 {
     display: inline-block;
     margin-top: auto;
 }
+
+
+.main-footer {
+    padding: 39px 0;
+    border-top: 1px solid rgba(17, 16, 50, 0.2);
+
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-menu-list {
+    list-style: none;
+    margin: 0 auto 0 77px;
+    padding: 0;
+    max-width: 560px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+}
+
+.footer-menu-item {
+    margin-right: 35px;
+}
