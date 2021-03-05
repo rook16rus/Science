@@ -22,6 +22,14 @@ body {
     margin: 0 auto;
 }
 
+.content-column-wrapper {
+    columns: 2;
+}
+
+.content-column-wrapper p {
+    display: inline-block;
+}
+
 .visually-hidden {
     position: absolute;
     padding: 0;
@@ -321,4 +329,27 @@ h1 {
     width: 65px;
     height: 10px;
     background: url("../img/arrow.svg");
+}
+
+.disaccharides-list {
+    list-style: none;
+    margin: 15px 0 30px;
+    padding: 0;
+}
+
+.disaccharides-item {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.disaccharides-item::before {
+    content: "";
+
+    display: block;
+    min-width: 10px;
+    height: 10px;
+    margin-top: 12px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #6563B8;
 }
