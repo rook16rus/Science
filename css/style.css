@@ -353,3 +353,38 @@ h1 {
     border-radius: 50%;
     background-color: #6563B8;
 }
+
+.carbohydrates-norm-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #DDDDE4;
+    margin-bottom: 66px;
+
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.carbohydrates-norm-table caption {
+    margin: 30px 0;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.carbohydrates-norm-table td, .carbohydrates-norm-table th {
+    padding: 9px;
+    border: 1px solid #DDDDE4;
+}
+
+.carbohydrates-norm-table th, .carbohydrates-norm-table tfoot td {
+    background-color: #111032;
+    color: #F9F9FF;
+    font-weight: 600;
+}
+
+.carbohydrates-norm-table thead tr:last-child {
+    font-size: 14px;
+    line-height: 18px;
+}
