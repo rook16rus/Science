@@ -48,6 +48,25 @@ body {
     color: #000;
 }
 
+.border-aside {
+    width: 100%;
+    padding: 30px 20px;
+    margin: 45px 0 60px;
+    border-top: 3px solid #95DBE1;
+    border-bottom: 3px solid #95DBE1;
+    text-align: center;
+}
+
+.border-aside p {
+    line-height: 30px;
+}
+
+.border-aside a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .main-header {
     font-weight: 600;
     font-size: 16px;
@@ -102,8 +121,8 @@ body {
     background: transparent url("../img/search icon.svg") no-repeat center;
 }
 
-.main-article p[class=""] {
-    margin: 0;
+.main-article p {
+    margin: 0 0 15px;
 }
 
 .main-article h3 {
@@ -173,6 +192,10 @@ h1 {
     font-weight: 600;
 }
 
+.main-article-nav-item {
+    margin-bottom: 15px;
+}
+
 .main-article-nav .link {
     font-weight: normal;
 }
@@ -228,4 +251,32 @@ h1 {
 
 .carbohydrates-table td {
     min-width: 256px;
+}
+
+.sugar-list {
+    margin-bottom: 45px;
+}
+
+.sugar-list ul {
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+    margin: 0;
+
+    counter-reset: sugar_counter;
+}
+
+.sugar-list li {
+    counter-increment: sugar_counter;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.sugar-list li::before  {
+    content: counters(sugar_counter, ".") ". ";
+}
+
+.sugar-list li li {
+    padding-left: 20px;
+    font-weight: normal;
 }
