@@ -388,3 +388,69 @@ h1 {
     font-size: 14px;
     line-height: 18px;
 }
+
+.main-article-footer-meta {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+    border-top: 1px solid rgba(17, 16, 50, 0.2);
+    border-bottom: 1px solid rgba(17, 16, 50, 0.2);
+
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-article-footer-meta p {
+    margin: 0;
+}
+
+.share-button {
+    width: 51px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid rgba(17, 16, 50, 0.2);
+    outline: none;
+    font-size: 0;
+    background: url("../img/share icon.svg") no-repeat center;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 auto;
+
+    display: flex;
+    align-items:flex-start;
+}
+
+.category-item {
+    margin-right: 15px;
+    padding: 4px 30px;
+    border: 1px solid rgba(17, 16, 50, 0.2);
+
+    position: relative;
+}
+
+.category-item:last-child {
+    margin-right: 0;
+}
+
+.category-link {
+    color: #111032;
+    text-decoration: none;
+}
+
+.category-link::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.category-link:hover {
+    opacity: 0.8;
+}
